@@ -1,0 +1,21 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fsvpy"
+version = "1.0.2"
+description = "Streak identification and quantification for fluorescent streak velocimetry"
+readme = "README.md"
+authors = [{name = "Michelle Driscoll", email = "michelle.driscoll@northwestern.edu"},{name = "Jeffrey Richards", email = "jeffrey.richards@northwestern.edu"}]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["feature finding"]
+dependencies = ["pims", "matplotlib", "pandas", "numpy", "scikit-image", "networkx"]
+
